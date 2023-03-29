@@ -20,6 +20,7 @@ const config =
 
 const response = await makeLocalPayment(config)
 
+```
 
 ---
 
