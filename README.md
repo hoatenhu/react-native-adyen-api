@@ -3,25 +3,6 @@
 An easy way to call the make a payment api to the Adyen terminal when you use react-native.
 
 
-For example, you just need to create an object containing the config information of the adyen terminal:
-
-```js
-const config = 
-{
-  amount: 100,
-  saleId: "618ca3fc-5272-4184-a1c2",
-  terminalIp: "192.168.1.19",
-  poiid: "S1F2-000158212621330",
-  securityId: '1',
-  passphrare: '1',
-  securityVersion: 1,
-  currency: "SGD",
-}
-
-const response = await makeLocalPayment(config)
-
-```
-
 ---
 
 ## Installation
