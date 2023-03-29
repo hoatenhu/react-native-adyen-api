@@ -1,0 +1,34 @@
+{
+  "name": "react-native-adyen-api",
+  "version": "1.0.0",
+  "description": "This library helps easily call API to Adyen terminal to make a payment",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoatenhu/react-native-adyen-api.git"
+  },
+  "keywords": [
+    "adyen",
+    "adyen terminal",
+    "adyen local",
+    "adyen api",
+    "adyen local terminal",
+    "adyen local api",
+    "adyen terminal api"
+  ],
+  "author": "hoatenhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoatenhu/react-native-adyen-api/issues"
+  },
+  "homepage": "https://github.com/hoatenhu/react-native-adyen-api#readme",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "react-native-quick-crypto": "^0.5.0",
+    "rn-fetch-blob": "^0.12.0"
+  }
+}
