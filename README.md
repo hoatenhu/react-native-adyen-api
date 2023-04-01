@@ -20,7 +20,8 @@ yarn add react-native-adyen-api
 
 ## Important: Replace `crypto-browserify`
 
-Because this library uses react-native-quick-crypto you may need an extra step:
+Because this library uses react-native-quick-crypto so you can not use react-native-debugger or browser to debug normally, you can use flipper
+and you may need an extra step:
 
 If you are using a library that depends on `crypto`, instead of polyfilling it with `crypto-browserify` (or `react-native-crypto`) you can use `react-native-quick-crypto` for a fully native implementation. This way you can get much faster crypto operations with just a single-line change!
 
